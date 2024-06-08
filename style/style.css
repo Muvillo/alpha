@@ -35,7 +35,7 @@ address, .textNav{
   
 .block1{
     width: 100%;
-    background: url(../images/bgblock.webp) top left/100% 100% no-repeat;    
+    background: url(/images/bgblock.webp) top left/100% 100% no-repeat;    
     margin-top: -5px;
     height: 500px;
 }
