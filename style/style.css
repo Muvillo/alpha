@@ -35,7 +35,7 @@ address, .textNav{
   
 .block1{
     width: 100%;
-    background: url('images/bgblock1.png') top left/100% 100% no-repeat;    
+    background: url(../images/bgblock.webp) top left/100% 100% no-repeat;    
     margin-top: -5px;
     height: 500px;
 }
@@ -173,7 +173,7 @@ address, .textNav{
     height: 25px;
     background:
     rgba(255, 255, 255, 1)
-      url(/images/vacancy.svg) no-repeat;
+      url(../images/vacancy.svg) no-repeat;
       background-position: center center;
     border-radius: 50%;
     margin: 30px 10px 20px 30px;
@@ -419,14 +419,14 @@ border-radius: 10px;
 
 .block7{
     background: 
-    url(/images/Character-1.svg) top 193px left 21px no-repeat,
-    url(/images/Character-4.svg) top 169px left 215px no-repeat,
-    url(/images/Character-3.svg) top 199px left 167px no-repeat,
-    url(/images/Character-2.svg) top 164px left 70px no-repeat,
-    url(/images/Pattern.svg) top 202px left 103px/160px 160px no-repeat,
-    url(/images/Pattern.svg) top 45px left 224px/341px 341px no-repeat,
-    url(/images/Pattern.svg) top 275px left -57px/170px 170px no-repeat,
-    url(/images/Window.svg) top 64px left 238px no-repeat;
+    url(../images/Character-1.svg) top 193px left 21px no-repeat,
+    url(../images/Character-4.svg) top 169px left 215px no-repeat,
+    url(../images/Character-3.svg) top 199px left 167px no-repeat,
+    url(../images/Character-2.svg) top 164px left 70px no-repeat,
+    url(../images/Pattern.svg) top 202px left 103px/160px 160px no-repeat,
+    url(../images/Pattern.svg) top 45px left 224px/341px 341px no-repeat,
+    url(../images/Pattern.svg) top 275px left -57px/170px 170px no-repeat,
+    url(../images/Window.svg) top 64px left 238px no-repeat;
     background-color: rgba(33, 33, 33, 1);
 }
 
@@ -473,15 +473,15 @@ border-radius: 10px;
 }
 
 .phoneIcon{
-    background: url(/images/phone.svg) top 8px left 6px no-repeat;
+    background: url(../images/phone.svg) top 8px left 6px no-repeat;
 }
 
 .emailIcon{
-    background: url(/images/email.svg)  no-repeat;
+    background: url(../images/email.svg)  no-repeat;
 }
 
 .addressIcon{
-    background: url(/images/address.svg) no-repeat;
+    background: url(../images/address.svg) no-repeat;
 }
 
 .containerContact{

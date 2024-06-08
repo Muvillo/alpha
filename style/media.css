@@ -16,7 +16,7 @@
 
 @media (min-width: 425px){
   .block1{
-    background: url(/images/bgblock1.webp) no-repeat;    
+    background: url(../images/bgblock1.webp) no-repeat;    
     background-position: center center;
   }
 }
