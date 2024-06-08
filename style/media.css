@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .menyu-navigatsig li {
+    float: left;
+    display: inline;
+    }
+    
+    .menyu-navigatsig .navigation {
+    clear: none;
+    max-height: none;
+    }
+    .menyu-navigatsig .navigation-icon {
+    display: none;
+    }
+  
+}
+
+@media (min-width: 425px){
+  .block1{
+    background: url(/images/bgblock1.webp) no-repeat;    
+    background-position: center center;
+  }
+}
+

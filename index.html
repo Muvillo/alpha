@@ -1,0 +1,130 @@
+<!DOCTYPE html> 
+<html>
+  <head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Пестовский лесокомбинат</title> 
+    <link rel="stylesheet" type="text/css" href="style\style.css">
+    <link rel="stylesheet" type="text/css" href="style\fonts.css">
+    <link rel="stylesheet" type="text/css" href="style\media.css">
+    <link rel="stylesheet" type="text/css" href="style\burgerStyle.css">
+  </head>
+
+<body>
+    <header class="menyu-navigatsig">
+        <span>
+            <input class="navigation-btn" type="checkbox" id="navigation-btn" />
+            <label class="navigation-icon" for="navigation-btn"><span class="categorua"></span></label>
+        
+            <ul class="navigation">
+            <li class="textNav"><a href="">Главная</a></li>
+            <li class="textNav"><a href="">Дома</a></li>
+            <li class="textNav"><a href="">Бани</a></li>
+            </ul>
+        </span>
+    
+        <img src="images\logo.svg" alt="Логотип" id="logo"> 
+
+        <address>8 (812) 603-72-22<br> 8 (499) 380-77-33</address> 
+    </header>
+    
+    <div class="block1">
+        <div class="contentBlock1">
+            <p class="titleBlock1">«ПЕСТОВСКИЙ ЛЕСОКОМБИНАТ»</p>
+            <p class="sloganBlock1 ">Cтань частью нашей команды!</p>
+            <button class="btn btnQuest" onclick="sendQeust()">ОТПРАВИТЬ АНКЕТУ</button>
+        </div>
+        <div class="modal" id="modal">
+            <button class="btnClose" onclick="closeQuest()"><img src="images\close.svg"></button>
+            <div class="infoQuest">
+                <p class="titleBlock2">ЗАПОЛНИТЕ АНКЕТУ</p>
+                <form class="dataPerson">
+                    <input type="text" placeholder="Ф.И.О" class="inputData" required>
+                    <input type="number" placeholder="Телефон" class="inputData" required>
+                </form>
+                <p class="responseVacancy">Отклик на вакансию</p>
+                <select class="list">
+                    <option value="">Выберите вакансию</option>
+
+                </select>
+                <p class="responseVacancy">Ваше резюме</p>
+                <p class="resume">Есть резюме в формате .pdf или .doc?<br> Приложите и отправьте его нам.</p>
+                <button class="upload">ЗАГРУЗИТЬ ФАЙЛ</button>
+                <div class="agreement">
+                    <div class="agreementInputBlock"><input type="checkbox" class="agreementInput"></div>
+                    <p>Я прочитал(а), ознакомился(лась) и согласен(на) с Политикой конфиденциальности, Согласием на обработку персональных данных физическим лицом. Я осознаю, что даю Согласие на обработку персональных данных для использования предоставляемых возможностей Веб-сервиса.
+                        <br><br>Я достиг(ла) 18-летнего возраста</p>
+                </div>
+                <button class="btn btnQuest btnModule" onclick="sendFillesQuest()">ОТПРАВИТЬ АНКЕТУ</button>
+            </div>
+            <div class="questSent" id="sent">
+                <button class="btnClose" onclick="closeQuest()"><img src="images\close.svg"></button>
+                <p class="titleBlock2">АНКЕТА ОТПРАВЛЕНА</p>
+                <div class="sentInfo">
+                    <img src="images\successfully.svg" class="successfully">
+                    <p class="textQuestSent">Благодарим за ваш отклик и интерес.<br> <br> Мы изучим вашу анкету и свяжемся с вами в течении 2х дней.</p>
+                    <button class="btn btnQuest btnModule" onclick="closeQuest()">НА ГЛАВНУЮ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block2">
+        <p class="titleBlock2">О КОМПАНИИ</p>
+        <div class="contentBlock2" id="block2">
+        </div>
+    </div>
+
+    <div class="block3">
+        <p class="titleBlock3">ВЫБЕРИ ПОДРАЗДЕЛЕНИЕ:</p>
+        <div class="contentBlock3"><div id="block3"></div></div>
+        <div id="cardContent"></div>
+        <button class="btn btnVacancy">ОТКЛИКНУТЬСЯ НА ВАКАНСИЮ</button>
+    </div>
+
+    <div class="block4">
+        <p class="titleBlock2 titleblock4">ПРЕИМУЩЕСТВА КОМПАНИИ</p>
+        <div id="block4"></div>
+    </div>
+
+    <div class="block5">
+        <p class="titleBlock2">ПРОДУКТЫ КОМПАНИИ</p>
+        <div id="block5"></div>
+    </div>
+
+    <div class="block6">
+        <p class="titleBlock2">КАРЬЕРНЫЙ РОСТ</p>
+        <p class="sloganBlock6">Наша Компания является ярким примером, где достойные люди смело и заслуженно поднимаются по карьерной лестнице. <br> <br>
+            Мы ценим стремление к развитию и предоставляем все необходимые для этого условия.</p>
+        <div id="slideCareer"></div>
+    </div>
+
+    <div class="block7">
+        <p class="sloganBlock7">НАШИ УСПЕХИ - ЭТО ЗАСЛУГА ЗАМЕЧАТЕЛЬНЫХ ЛЮДЕЙ, РАБОТАЮЩИХ В НАШЕЙ КОМАНДЕ.<br><br> У НАС ВСЕГДА ЕСТЬ ВАКАНСИИ ДЛЯ СИЛЬНЫХ КАНДИДАТОВ</p>
+        <div class="cardBlock7">
+            <p class="textCardBlock7">Если чувствуешь в Себе потенциал и здоровые амбиции — ждём рядом с Нами!</p>
+            <button class="btn btnVacancy btnBlock7">ПРИСОЕДИНИТЬСЯ К КОМАНДЕ</button>
+        </div>
+    </div>
+
+    <div class="block8">
+        <p class="titleBlock2">КОНТАКТЫ</p>
+        <div id="contentBlock8"></div>
+        <div id="contentContact"></div>
+        <div id="linksContact"></div>
+        <img src="images\Rectangle.webp" alt="Карта" width="100%">
+        <p class="copyText">© 2023 Пестовский Лесокомбинат. <br> Все права защищены.</p>
+        <a class="requisites"><u>Реквизиты</u></a>
+        <a class="confidentiality"><u>Политика конфиденциальности</u></a>
+        <img src="images\Group.svg" alt="Логотип" class="logoFooter">
+    </div>
+
+    <script src="scripts/contentBlock2.js"></script>
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/advantages.js"></script>
+    <script src="scripts/galleryProduct.js"></script>
+    <script src="scripts/contacts.js"></script>
+    <script src="scripts/career.js"></script>
+    <script src="scripts/quest.js"></script>
+</body>
+</html>

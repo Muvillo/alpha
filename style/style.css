@@ -1,0 +1,646 @@
+@import url("reset.css");
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: rgba(17, 19, 17, 1);
+    display: grid;
+    grid-template-columns: 20% auto 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+.textNav, address, .contentBlock1, .btn, .cardSection, .nameAdv, .descriptionAdv, .infoMoreCard, .sloganBlock6, .sloganBlock7, .textCardBlock7, .containerContact, .copyText, .requisites, .confidentialityb, .nameCareer, .infoCareer, .btnClose, .responseVacancy, .inputData, .list, .resume, .upload, .agreement, .textQuestSent {
+    color: rgba(255, 255, 255, 1);
+}
+
+address, .contentBlock1, .btn, .titleBlock2, .titleBlock3, .square, .cardSection, .cardTrue, .Vacancy, .iconPrice, .iconMore, .nameAdv, .infoMoreCard, .sloganBlock6, .sloganBlock7, .textCardBlock7, .containerContact, .copyText, .requisites, .confidentiality, .nameCareer, .btnClose, .responseVacancy, .upload, .textQuestSent {
+    font-family: GothamProMedium;
+}
+
+.textNav{
+    font-family: GothamPro Bold;
+}
+
+address, .textNav{
+    font-size: 9px;
+}
+
+#logo{
+    width: 59.13px;
+    height: 30px;
+}
+  
+.block1{
+    width: 100%;
+    background: url('images/bgblock1.png') top left/100% 100% no-repeat;    
+    margin-top: -5px;
+    height: 500px;
+}
+
+.contentBlock1, .contentBlock2{
+    width: 88%;
+    margin: auto;
+    text-align: center;
+    line-height: 36px;
+}
+
+.contentBlock1{
+    padding-top: 270px;
+}
+
+.titleBlock1{
+    font-size: 30px;
+}
+
+.sloganBlock1{
+    font-size: 18px;
+}
+
+.btn{
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(221, 48, 55, 1);
+    font-size: 12px;
+}
+
+.btnQuest{
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.block2, .block3, .block5{
+    background-color: rgba(33, 33, 33, 1);
+}
+
+.block2{
+    height: 552px;
+}
+
+.titleBlock2, .titleBlock3{
+    font-size: 18px;
+    color: rgba(153, 153, 153, 1);
+    padding-top: 45px;
+}
+
+.titleBlock2, .cardSection, .signature{
+    text-align: center; 
+}
+
+.square{
+    display: block;
+    width: 80px;
+    height: 52.5px;
+    margin: auto;
+    margin-top: 35px;
+    border-radius: 5px;
+    padding-top: 17.5px;
+    border: 1px solid rgba(182, 255, 186, 1);
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 
+        0px 4px 4px rgba(0, 0, 0, 0.5),
+        0px 0px 10px rgba(182, 255, 186, 1);
+
+    font-size: 24px;
+    color: rgba(33, 160, 56, 1);
+    line-height: 40px;
+}
+
+.signature{
+    font-size: 16px;
+    font-family: GothamPro;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 20px;
+}
+
+.block3, .block4, .block5, .block6, .block7, .block8{
+    margin-top: -1px;
+    padding-bottom: 45px;
+}
+
+.titleBlock3{
+    margin-left: 20px;
+}
+
+#block3{
+    display: inline;
+}
+
+.contentBlock3{
+    margin-left: 20px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.cardSection{
+    display: inline-block;
+    font-size: 12px;
+    padding: 4px 8px 4px 8px;
+    line-height: 15px;
+    text-align: center;
+    border: 3px solid rgba(153, 153, 153, 1);
+    border-radius: 5px;
+    margin: 5px;
+    background: none;
+}
+
+.cardSection:focus{
+    background-color: rgba(153, 153, 153, 1);
+    color: rgba(33, 33, 33, 1);
+}
+
+.contentcard{
+    display: grid;
+    grid-template-columns: auto 65px;
+    align-items: center;
+}
+
+.borderCard{
+    width: 88%;
+    margin: auto;
+    border-radius: 30px;
+    border: 3px solid rgba(153, 153, 153, 1);
+    margin-bottom: 15px;
+    padding-bottom: 30px;
+}
+
+.iconVacancy{
+    width: 25px; 
+    height: 25px;
+    background:
+    rgba(255, 255, 255, 1)
+      url(/images/vacancy.svg) no-repeat;
+      background-position: center center;
+    border-radius: 50%;
+    margin: 30px 10px 20px 30px;
+}
+
+.Vacancy{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    display: grid;
+    grid-template-columns: 65px auto;
+    align-items: center;
+}
+
+.nameTextVacancy{
+    margin-top: 8px;
+}
+
+.iconPrice, .iconMore{
+    width: 25px; 
+    height: 25px;
+    background:rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    margin: 0px 10px 0px 30px;
+    text-align: center;
+}
+
+.priceTextVacancy, .iconPrice{
+    color:rgba(33, 160, 56, 1);
+}
+
+.iconMore{
+    background-color: rgba(33, 160, 56, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 26px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.infoMoreCard{
+    font-size: 12px;
+    margin-left: 30px;
+    line-height: 14.52px;
+    animation: appearance 1s forwards;
+}
+
+ul{
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+    line-height: 14.52px;
+}
+
+.titleMore{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.btnVacancy{
+    display: block;
+    width: 72%;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.block4, .block6, .block8{
+    background-color:rgba(17, 19, 17, 1);
+}
+
+.titleblock4{
+    margin-bottom: 20px;
+}
+
+.nameAdv, .descriptionAdv{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.nameContent{
+    display: grid;
+    grid-template-columns: auto 55px;
+    align-items: center;
+}
+
+.descriptionAdv{
+    font-family: GothamPro;
+    margin-top: 16.5px;
+    line-height: 21.78px;
+    display: none;   
+}
+
+.descriptionAdvBlock{
+    display: block;
+    transform: translateY(-10%);
+    animation: appearance 2s forwards;
+}
+
+@keyframes appearance {
+    0% {transform: translateY(-10%);}
+    100% {transform: translateY(0);}
+}
+
+.animatIcon{
+    animation: rotateIcon 0.5s forwards;
+}
+
+@keyframes rotateIcon {
+   0% {transform: rotate(0deg)}
+   100%{transform: rotate(-45deg);}
+}
+
+.contentAdv{
+    border-bottom: 3px solid rgba(153, 153, 153, 1);
+    margin-bottom: 16.5px;
+    padding-bottom: 16.5px;
+}
+
+.cardProductBtn{
+    display: inline-block;
+    width: 45%;
+}
+
+.conteinerBtn{
+    width: 65.5%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+#block5{
+    overflow-x: hidden;
+}
+
+#product0, #product1, #product2{
+border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    margin: 35px 0px 35px 0px;
+}
+
+.galleryProduct{
+    display:inline-flex;
+    height: 232px;
+}
+
+.test{
+    animation: ttt 2s;
+}
+
+@keyframes ttt {
+    0% {transform: translateX(0);}
+    100% {transform: translatex(100px);}
+}
+
+#product0{
+    position: absolute;
+    left: -50px;
+    margin-top: 52px;
+    width: 130px;
+    height: 148px;
+    box-shadow: 0px 4px 4px 
+    rgba(0, 0, 0, 0.25);
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) -168px, rgba(0, 0, 0, 0.1), rgba(217, 217, 217, 1));
+}
+
+#product1{
+    position: absolute;
+    left: 97px;
+    width: 165px;
+    height: 182px;
+    box-shadow: 0px 0px 0px 5px 
+    rgba(217, 217, 217, 0.25);
+}
+
+#product2{
+    position: absolute;
+    left: 282px;
+    margin-top: 52px;
+    width: 130px;
+    height: 148px;
+    width: 130px;
+    height: 148px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) -168px, rgba(0, 0, 0, 0.1), rgba(217, 217, 217, 1));
+}
+
+.arrow{
+    position: absolute;
+    margin-top: 109px;
+    z-index: 1;
+}
+
+.arrowLeft{
+    margin-left: 3.3%;
+}
+
+.arrowRight{
+    margin-left: 91.4%;
+}
+
+.sloganBlock6{
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 35px;  
+    margin-bottom: 35px; 
+}
+
+.containerPhotoCareer{
+    width: 66.6%;
+    margin: auto;
+    text-align: center;
+}
+
+.nameCareer{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.postCareer{
+    font-family: GothamPro;
+    font-size: 14px;
+    margin: 0;
+}
+
+.infoCareer{
+    font-family: GothamPro;
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.containerInfoCareer{
+    width: 88.8%;
+    margin: auto;
+}
+
+.sloganBlock7{
+    line-height: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    padding-top: 45px;
+}
+
+.block7{
+    background: 
+    url(/images/Character-1.svg) top 193px left 21px no-repeat,
+    url(/images/Character-4.svg) top 169px left 215px no-repeat,
+    url(/images/Character-3.svg) top 199px left 167px no-repeat,
+    url(/images/Character-2.svg) top 164px left 70px no-repeat,
+    url(/images/Pattern.svg) top 202px left 103px/160px 160px no-repeat,
+    url(/images/Pattern.svg) top 45px left 224px/341px 341px no-repeat,
+    url(/images/Pattern.svg) top 275px left -57px/170px 170px no-repeat,
+    url(/images/Window.svg) top 64px left 238px no-repeat;
+    background-color: rgba(33, 33, 33, 1);
+}
+
+.cardBlock7{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 86.7%;
+    border: 3px solid rgba(54, 133, 59, 1);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 120px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    0px 0px 10px rgba(79, 183, 86, 0.7);
+    padding-bottom: 20px;
+}
+
+.textCardBlock7{
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 26.5px;
+    margin-top: 20px;
+}
+
+.btnBlock7{
+    width: 83%;
+}
+
+#contentBlock8{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.cardContactBtn{
+    width: 150px;
+}
+
+.contactIcon{
+    border: 0.5px solid rgba(33, 160, 56, 1);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.phoneIcon{
+    background: url(/images/phone.svg) top 8px left 6px no-repeat;
+}
+
+.emailIcon{
+    background: url(/images/email.svg)  no-repeat;
+}
+
+.addressIcon{
+    background: url(/images/address.svg) no-repeat;
+}
+
+.containerContact{
+    width: 87%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 32px auto;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.containerLink{
+    width: 58%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    gap: 30px;
+    margin-top: 42px;
+    margin-bottom: 40px;
+}
+
+.copyText, .requisites, .confidentiality{
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    margin-top: 41px;
+}
+
+.requisites{
+    display: block;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.confidentiality{
+    display: block;
+    font-size: 12px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.logoFooter{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.modal, .questSent{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.btnClose{
+    background: none;
+    border: none;
+    margin-left: 85%;
+}
+
+.infoQuest{
+    background-color:rgba(38, 38, 38, 1);
+}
+
+.dataPerson{
+    margin-top: 37px;
+}
+
+.inputData, .list{
+    background: none;
+    border: none;
+    border-bottom: 3px solid rgba(153, 153, 153, 1);
+    display: block;
+    width: 88.8%;
+    margin: auto;
+    height: 52px;
+    font-size: 18px;
+}
+
+.responseVacancy{
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.list, .resume, .agreement{
+    font-family: GothamPro;
+}
+
+.resume{
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.upload{
+    font-size: 12px;
+    background-color: rgba(33, 160, 56, 1);
+    width: 184px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    margin-left: 5.5%;
+}
+
+.agreement{
+    display: grid;
+    grid-template-columns: 20px auto;
+    align-items: start;
+    font-size: 10px;
+    width: 88.8%;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.agreementInput{
+    display: none;
+}
+
+.agreementInputBlock{
+    width: 12px;
+    height: 12px;
+    background-color:rgba(217, 217, 217, 0.2);
+    border: 0.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.btnModule{
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.textQuestSent{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 45px;
+}
+
+.successfully{
+    margin-top: 74px;
+    margin-left: 30%;
+}
+
+.sentInfo{
+    width: 65.5%;
+    margin: auto;
+    margin-bottom: 65px;
+}

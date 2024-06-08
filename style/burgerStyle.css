@@ -1,0 +1,71 @@
+.menyu-navigatsig ul {
+    overflow: hidden;
+  }
+    
+.menyu-navigatsig .navigation {
+    max-height: 0;
+    transition: max-height .2s ease-out;
+  }
+    
+.menyu-navigatsig .navigation-icon {
+    cursor: pointer;
+    display: inline-block;
+    padding: 35px 20px;
+    position: relative;
+    user-select: none;
+}
+    
+.menyu-navigatsig .navigation-icon .categorua {
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 20px;
+    border-radius: 10%;
+}
+    
+.menyu-navigatsig .navigation-icon .categorua:before,
+.menyu-navigatsig .navigation-icon .categorua:after {
+    background: rgba(255, 255, 255, 1);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    border-radius: 10%;
+}
+  
+.menyu-navigatsig .navigation-icon .categorua:before {
+    top: 7px;
+}
+  
+.menyu-navigatsig .navigation-icon .categorua:after {
+    top: -7px;
+}
+  
+.menyu-navigatsig .navigation-btn {
+    display: none;
+}
+  
+.menyu-navigatsig .navigation-btn:checked ~ .navigation {
+    max-height: 240px;
+}
+  
+.menyu-navigatsig .navigation-btn:checked ~ .navigation-icon .categorua {
+    background: transparent;
+}
+  
+.menyu-navigatsig .navigation-btn:checked ~ .navigation-icon .categorua:before {
+    transform: rotate(-45deg);
+}
+  
+.menyu-navigatsig .navigation-btn:checked ~ .navigation-icon .categorua:after {
+    transform: rotate(45deg);
+}
+  
+.menyu-navigatsig .navigation-btn:checked ~ .navigation-icon:not(.steps) .categorua:before,
+.menyu-navigatsig .navigation-btn:checked ~ .navigation-icon:not(.steps) .categorua:after {
+    top: 0;
+}
