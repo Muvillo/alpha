@@ -35,7 +35,7 @@ address, .textNav{
   
 .block1{
     width: 100%;
-    background: url(/images/bgblock.webp) top left/100% 100% no-repeat;    
+    background: url(./images/bgblock.webp) top left/100% 100% no-repeat;    
     margin-top: -5px;
     height: 500px;
 }
@@ -173,7 +173,7 @@ address, .textNav{
     height: 25px;
     background:
     rgba(255, 255, 255, 1)
-      url(../images/vacancy.svg) no-repeat;
+      url(images/vacancy.svg) no-repeat;
       background-position: center center;
     border-radius: 50%;
     margin: 30px 10px 20px 30px;
